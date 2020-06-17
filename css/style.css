@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 43, 220, 0.9);
+  background: #F28F4A;
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -748,7 +748,7 @@ header {
         .work-entry-flex .text-inner h2 {
           font-size: 20px; } }
       .work-entry-flex .text-inner h2 a {
-        color: #002bdc;
+        color: #F28F4A;
         text-decoration: none; }
     .work-entry-flex .text-inner .tag {
       margin-bottom: 20px; }
@@ -758,7 +758,7 @@ header {
         letter-spacing: 4px;
         font-size: 14px; }
     .work-entry-flex .text-inner .btn-view {
-      color: #002bdc;
+      color: #F28F4A;
       text-decoration: none; }
 
 .work-single-flex {
@@ -780,13 +780,14 @@ header {
     width: 100%; }
   .work-single-flex .display-tc {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    background: #fff; }
   .work-single-flex .work-desc {
     padding: 4em; }
     .work-single-flex .work-desc h2 {
       font-size: 40px;
       font-weight: 600;
-      color: #002bdc; }
+      color: #F28F4A; }
     @media screen and (max-width: 768px) {
       .work-single-flex .work-desc {
         padding: 1.5em;
@@ -797,8 +798,8 @@ header {
     .work-single-flex .work-desc .button-btn {
       color: #999999; }
     .work-single-flex .work-desc .btn-preview {
-      color: #002bdc;
-      border: 1px solid #002bdc;
+      color: #F28F4A;
+      border: 1px solid #F28F4A;
       padding: 7px 15px;
       text-decoration: none;
       -webkit-border-radius: 30px;
