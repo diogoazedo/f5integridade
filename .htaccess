@@ -1,0 +1,4 @@
+  
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%f5integridade.com.br/$1 [R,L]
